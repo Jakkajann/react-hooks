@@ -4,12 +4,14 @@ import UseEffectExample from "./hooks/useEffect";
 import UseCallbackExample from "./hooks/useCallback";
 import UseMemoExample from "./hooks/useMemo";
 import UseRefExample from "./hooks/useRef";
-import UseContextExample from "./hooks/useContext";
+import UseContextExample from "./hooks/useContextExample";
+import UseReducerExample from "./hooks/useReducer";
+import UseContextAndReducer from "./hooks/useContextAndReducer";
 
 function App() {
   return (
    <div>
-    <UseContextExample />
+    <UseContextAndReducer />
    </div>
   );
 }
